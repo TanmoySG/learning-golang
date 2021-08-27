@@ -12,9 +12,13 @@ Variables in Golang
 - var variable_name type          -
 - variable_name = value           -
 --------------- OR ----------------
+-                                 -
 - var variable_name type = value  -
+-                                 -
 --------------- OR ----------------
+-                                 -
 - variable_name := value          -
+-                                 -
 -----------------------------------
 
 var - a keyword to declare a variable
@@ -22,7 +26,10 @@ variable_name - name of the variable
 type - type of the declared variable
 value - value assigned to the variable
 
-The := 
+The  :=  is a short variable declaration operator that 
+doesn't require initialization with type of the variable
+and by default assigns a type based on the value. But this
+operation cannot be used outside a funtion.
 
 */
 
