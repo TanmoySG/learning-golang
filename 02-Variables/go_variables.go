@@ -6,7 +6,7 @@ import (
 
 /*
 
-Variables in Golang
+1. Variables in Golang
 
 -----------------------------------
 - var variable_name type          -
@@ -15,10 +15,6 @@ Variables in Golang
 -                                 -
 - var variable_name type = value  -
 -                                 -
---------------- OR ----------------
--                                 -
-- variable_name := value          -
--                                 -
 -----------------------------------
 
 var - a keyword to declare a variable
@@ -26,15 +22,32 @@ variable_name - name of the variable
 type - type of the declared variable
 value - value assigned to the variable
 
-The  :=  is a short variable declaration operator that
+
+2. The  :=  is a short variable declaration operator that
 doesn't require initialization with type of the variable
 and by default assigns a type based on the value. But this
 operation cannot be used outside a funtion.
+-----------------------------------
+-                                 -
+- variable_name := value          -
+-                                 -
+-----------------------------------
 
-Variables can also be declared on the package level,
+
+3. Variables can also be declared on the package level,
 i.e. outside funtions.  
+-----------------------------------
+-                                 -
+- var variable_name type = value  -
+-                                 -
+- func main() {                   -
+-	// Function Body              -
+- }                               -
+-                                 -
+-----------------------------------
 
-Mvltiple Variables can also be declared together as a variable block.
+
+4. Multiple Variables can also be declared together as a variable block.
 -----------------------------------
 -  var (                          -
 -     variable1 type = value      -
