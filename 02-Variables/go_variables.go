@@ -13,12 +13,16 @@ Variables in Golang
 - variable_name = value           -
 --------------- OR ----------------
 - var variable_name type = value  -
+--------------- OR ----------------
+- variable_name := value          -
 -----------------------------------
 
 var - a keyword to declare a variable
 variable_name - name of the variable
 type - type of the declared variable
 value - value assigned to the variable
+
+The := 
 
 */
 
