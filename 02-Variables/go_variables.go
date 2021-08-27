@@ -36,11 +36,11 @@ i.e. outside funtions.
 
 Mvltiple Variables can also be declared together as a variable block.
 -----------------------------------
--  var (						  -
--	  variable1 type = value 	  -
--	  variable2 type    		  -
--	  variable3 type 	 	 	  -
--  )							  -
+-  var (                          -
+-	  variable1 type = value      -
+-	  variable2 type              -
+-	  variable3 type              -
+-  )                              -
 -----------------------------------
 
 */
