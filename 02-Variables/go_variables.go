@@ -71,6 +71,7 @@ takes precedence over other Scopes. This is called "Shadowing". For Example:
 -	// Re-declaration of Variable          -
 -	// Making this the innermost scope     -
 -	// and overriding the Scope-1          -
+-                                          -
 -	var scopedVar int = 58 // Scope-2      -
 -                                          -
 -	// Prints '58' as variable is          -
@@ -131,9 +132,9 @@ avaiable through general type conversion. Eg:
 - *                               -
 -----------------------------------
 "*" is printed because converting int to string by general
-method converts the number into its UNICODE equivalent. 
+method converts the number into its UNICODE equivalent.
 
-To solve this, Go has a special built-in string conversion package 
+To solve this, Go has a special built-in string conversion package
 - strconv [ https://pkg.go.dev/strconv@go1.17 ]
 
 To convert int to string use strconv.Itoa() method that converts
