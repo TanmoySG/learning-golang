@@ -16,6 +16,8 @@ The common types of data a Go Variable can have are:
 |            string             |                      String is a read only slice of bytes in golang                      |
 |             bool              |             The data type is bool and has two possible values true or false              |
 
+More about Golang data-types [here](https://golangbyexample.com/all-data-types-in-golang-with-examples/)
+
 ## **Declaring Variables in Go**
 
 Variables are declared in Go using the <kbd>var</kbd> keyword followed by the **variable-name** and <kbd>data-type</kbd>.
@@ -113,7 +115,7 @@ OUTPUT:
 Error: j declared but not used
 ```
 
-### **Numeric Type COnversion**
+### **Numeric Type Conversion**
 
 Variable type can be changed in numeric data-type variables using explicit type conversion.
 
