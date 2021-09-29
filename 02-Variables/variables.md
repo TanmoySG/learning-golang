@@ -16,7 +16,7 @@ The common types of data a Go Variable can have are:
 |            string             |                      String is a read only slice of bytes in golang                      |
 |             bool              |             The data type is bool and has two possible values true or false              |
 
-## Declaring Variables in Go
+## **Declaring Variables in Go**
 
 Variables are declared in Go using the <kbd>var</kbd> keyword followed by the **variable-name** and <kbd>data-type</kbd>.
 
@@ -31,7 +31,7 @@ Variables can also be declared by initializing it with a value.
 var variable_name type = value
 ```
 
-### Declaring variables using <kbd>:=</kbd> Operator
+### **Declaring variables using <kbd>:=</kbd> Operator**
 
 Variables can be declared using the <kbd>:=</kbd> - **Walrus Operator**. 
 
@@ -41,7 +41,7 @@ variable_name := value
 
 The  <kbd>:=</kbd> operator is a short variable declaration operator that doesn't require initialization with type of the variable and by default assigns the type based on the value. But this operation cannot be used outside a funtion.
 
-### Package Level Variable declaration
+### **Package Level Variable declaration**
 
 Variables can also be declared on the package level,
 i.e. outside funtions.
@@ -54,7 +54,7 @@ func main() {
 }
 ```
 
-### Declaring Multiple Variables Together
+### **Declaring Multiple Variables Together**
 
 Multiple Variables can also be declared together as a **variable block**.
 
@@ -66,7 +66,7 @@ var (
 )
 ```
 
-### Re-declaration of Variables
+### **Re-declaration of Variables**
 
 Variables can be redeclared in different scopes. The "Innermost Scope" takes precedence over other Scopes. This is called "Shadowing". For Example:
 
@@ -100,7 +100,7 @@ In the above program,
 - Scope-1 is "Package Level Scope"
 - Scope-2 is "Function Level Scope"
 
-### All declared variables in Golang ***Have to be used***
+### **All declared variables in Golang** ***Have to be used***
 
 Golang Checks if a declared variable is used or not while compiling. If a variable is defined/declared but not used it throws an error.
 
@@ -113,7 +113,7 @@ OUTPUT:
 Error: j declared but not used
 ```
 
-### Numeric Type COnversion
+### **Numeric Type COnversion**
 
 Variable type can be changed in numeric data-type variables using explicit type conversion.
 
@@ -133,7 +133,7 @@ While type converting, data might be lost. For Example converting float 83.3 int
 
 Eg: 83.3 (float32) --(int)-> 83 (int)
 
-### Type Conversion between numeric and not numeric data-types
+### **Type Conversion between numeric and not numeric data-types**
 
 Type conversion between numeric and string types is not
 avaiable through general type conversion. For Example:
