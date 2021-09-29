@@ -2,6 +2,10 @@
 
 Go is an open source programming language that makes it easy to build simple, reliable, and efficient software, and is developed by **Robert Griesemer**, **Rob Pike** & **Ken Thompson** at **Google**. Find more about Go at [golang.org](https://golang.org/). 
 
+# Chapters
+1. Getting Started
+2. [Variables in GoLang]()
+
 ## Resources
 
 - [Goes To Eleven / **GolangTraining**](https://github.com/GoesToEleven/GolangTraining)
