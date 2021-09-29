@@ -8,7 +8,7 @@ Go is an open source programming language that makes it easy to build simple, re
 - [Goes To Eleven / **go-programming**](https://github.com/GoesToEleven/go-programming)
 - [Goes To Eleven / **golang-web-dev**](https://github.com/GoesToEleven/golang-web-dev)
 - [Goes To Eleven / **golang-project**](https://github.com/GoesToEleven/golang-project)
-- [liyue201/gostl](https://github.com/liyue201/gostl) - Go STL
+- [Go STL by liyue201](https://github.com/liyue201/gostl)
 - [Build Web Apps with GoLang by astaxie](https://github.com/astaxie/build-web-application-with-golang)
 - [The Algorithms - Go](https://github.com/TheAlgorithms/Go)
 - [Go-Training](https://github.com/go-training/training)
