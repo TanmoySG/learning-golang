@@ -210,4 +210,15 @@ func main() {
 	fmt.Printf("variable2 = %v was declared inside var block and value assigned in main function \n", variable2)
 	fmt.Printf("variable3 = %v was declared inside var block and value assigned in main function \n", variable3)
 }
+
+OUTPUT:
+
+This variable was declared outside function.
+World of type string 
+26 of type int 
+78.5 of type float64 
+variable1 = 21 was declared and initalized inside var block 
+variable2 = Var Block Entity was declared inside var block and value assigned in main function 
+variable3 = 3.33 was declared inside var block and value assigned in main function 
+
 ```
