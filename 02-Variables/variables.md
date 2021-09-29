@@ -211,6 +211,8 @@ func main() {
 	fmt.Printf("variable3 = %v was declared inside var block and value assigned in main function \n", variable3)
 }
 
+
+
 OUTPUT:
 
 This variable was declared outside function.
