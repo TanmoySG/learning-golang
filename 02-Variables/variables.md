@@ -174,6 +174,12 @@ OUTPUT:
 ## A Sample Program for variables
 
 ```
+package main
+
+import (
+	"fmt"
+)
+
 // Declaring variable outside funtion/ on package level
 var varOut string = "This variable was declared outside function."
 
