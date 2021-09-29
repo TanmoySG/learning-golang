@@ -66,7 +66,7 @@ takes precedence over other Scopes. This is called "Shadowing". For Example:
 -	// declared outside funtion            -
 -	// scope and is the innermost          -
 -	// scope till this line is Scope-1     -
--	fmt.Printf("\nPrinted inside Scope-1: %v", scopedVar)                 -
+-	fmt.Println(scopedVar)                 -
 -                                          -
 -	// Re-declaration of Variable          -
 -	// Making this the innermost scope     -
@@ -77,7 +77,7 @@ takes precedence over other Scopes. This is called "Shadowing". For Example:
 -	// Prints '58' as variable is          -
 -	// declared in Scope-2, which is       -
 -	// is the innermost scope till.        -
--	fmt.Printf("\nPrinted inside Scope-2: %v", scopedVar)                 -
+-	fmt.Println(scopedVar)                 -
 - }                                        -
 --------------------------------------------
 - OUTPUT:                                  -
