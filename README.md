@@ -22,3 +22,4 @@ Go is an open source programming language that makes it easy to build simple, re
 - [Go Cloud Development Kit](https://github.com/google/go-cloud)
 - [LearningGo by UcheEke](https://github.com/UcheEke/LearningGo)
 - [Alikhll / golang-developer-roadmap](https://github.com/Alikhll/golang-developer-roadmap)
+- [Go by Example](https://gobyexample.com/variables)
