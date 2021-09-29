@@ -4,4 +4,4 @@ Go is an open source programming language that makes it easy to build simple, re
 
 ## Resources
 
-- liyue201/[gostl](https://github.com/liyue201/gostl) - Go STL
+- [liyue201/gostl](https://github.com/liyue201/gostl) - Go STL
