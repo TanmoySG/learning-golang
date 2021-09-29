@@ -6,12 +6,15 @@ A variable is name given to a storage area that the programs can manipulate.
 
 The common types of data a Go Variable can have are:
 
-|              Type              |                           Description                           |
-| :----------------------------: | :-------------------------------------------------------------: |
-| uint8, uint16, uint32, uint164 |               Unsigned 8, 16, 32, 64-bit integers               |
-|   int8, int16, int32, int64    |                Signed 8, 16, 32, 64-bit integers                |
-|        float32, float64        |             32-bit & 64-bit floating-point numbers              |
-|     complex64, complex128      | Complex numbers with float32 & float64 real and imaginary parts |
+|             Type              |                                       Description                                        |
+| :---------------------------: | :--------------------------------------------------------------------------------------: |
+| uint8, uint16, uint32, uint64 |                           Unsigned 8, 16, 32, 64-bit integers                            |
+|   int8, int16, int32, int64   |                            Signed 8, 16, 32, 64-bit integers                             |
+|       float32, float64        |                          32-bit & 64-bit floating-point numbers                          |
+|     complex64, complex128     |             Complex numbers with float32 & float64 real and imaginary parts              |
+|             byte              | A single byte represents ASCII characters. Golang does not have any data type of ‘char’. |
+|            string             |                      String is a read only slice of bytes in golang                      |
+|             bool              |             The data type is bool and has two possible values true or false              |
 
 ## Declaring Variables in Go
 
