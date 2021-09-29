@@ -2,6 +2,13 @@
 
 A variable is name given to a storage area that the programs can manipulate.
 
+### Data Types in Go
+
+The types of data a Go Variable can have are:
+
+| Type | Description |
+| :---:|:-----------:|
+
 ## Declaring Variables in Go
 
 Variables are declared in Go using the <kbd>var</kbd> keyword followed by the **variable-name** and <kbd>data-type</kbd>.
