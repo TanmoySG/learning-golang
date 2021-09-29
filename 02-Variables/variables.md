@@ -78,7 +78,7 @@ func main(){
 	// declared outside funtion     
 	// scope and is the innermost   
 	// scope till this line is Scope-1
-	fmt.Println(scopedVar)          
+	fmt.Printf("\nPrinted inside Scope-1: %v", scopedVar)          
                                    
 	// Re-declaration of Variable   
 	// Making this the innermost scope
@@ -89,10 +89,10 @@ func main(){
 	// Prints '58' as variable is   
 	// declared in Scope-2, which is
 	// is the innermost scope till. 
-	fmt.Println(scopedVar)          
+	fmt.Printf("\nPrinted inside Scope-2: %v", scopedVar)          
 } 
 
 OUTPUT:
-25 // Printed in Scope-1
-58 // Printed in Scope-2
+Printed inside Scope-1: 25
+Printed inside Scope-2: 58
 ```
