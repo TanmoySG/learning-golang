@@ -171,6 +171,43 @@ OUTPUT:
 42 
 ```
 
+### **Blank Identifier (_)**
+
+A Blank Identifier <kbd>_</kbd> (underscore) is used to define unused variables, i.e. the variables that require declaration but not used. This stops the compiler from throwing the unused error.
+
+```
+func main(){
+
+	// mulDiv returns two values
+	mul, div := mulDiv(100, 2)
+
+	fmt.Println("100*2 = ", mul)
+	// Throws Unused Error as div 
+	// is declared but not used.
+
+}
+
+func mulDiv(n int, m int) (int, int){
+	return n*m , n/m
+}
+```
+
+The above throws error as div is declared and value assigned but not used. To avoid this and have a placeholder to save the returned values, the <kbd>_</kbd> is used.
+
+```
+func main(){
+	// mulDiv returns two values
+	mul, _ := mulDiv(100, 2)
+
+	fmt.Println("100*2 = ", mul)
+}
+
+func mulDiv(n int, m int) (int, int){
+	return n*m , n/m
+}
+```
+
+
 ## A Sample Program for variables
 
 ```
