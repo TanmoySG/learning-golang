@@ -57,3 +57,13 @@ GOOS=darwin GOARCH=amd64 go build -0 macapp
 ```
 
 Read more about GOOS and GOARCH [here](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63).
+
+### go install
+
+<kbd>go install</kbd> - Compiles the Go Application and generates the executable file as well as import/copy the executable file to the local environment <kbd>GOPATH/bin</kbd>, that can be used by any project locally when required.
+
+```
+go install
+```
+
+
