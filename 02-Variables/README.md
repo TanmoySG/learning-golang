@@ -140,7 +140,7 @@ package main
 
 import "fmt"
 
-var y int = 20 // unused package-scope variable - doesn't raise error
+var y int = 20 // unused package scoped variable - doesn't raise error
 
 func main(){
 	x := 10
