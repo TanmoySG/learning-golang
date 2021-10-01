@@ -102,7 +102,25 @@ In the above program,
 - Scope-1 is "Package Level Scope"
 - Scope-2 is "Function Level Scope"
 
-### **All declared variables in Golang** ***Have to be used***
+
+### Initializing Multiple Varibles using Walrus Operator
+
+Multiple variables can be initialized together using the walrus operator ( _ ).
+
+```
+car, distance = "Tesla", 30000
+```
+
+But reassignment of the same group throws an error. Reassignment is possible if at least one of the variables on the left hand side of the statement is different.
+
+```
+car, distance = "Tesla", 30000
+car, distance = "Toyota", 50000 \\ throws compilation error
+car, age = "Toyota", 21 \\ does not throw error
+```
+
+
+### **All declared local variables in Golang** ***Have to be used***
 
 Golang Checks if a declared variable is used or not while compiling. If a variable is defined/declared but not used it throws an error.
 
@@ -113,6 +131,22 @@ fmt.Println(i)
 
 OUTPUT:
 Error: j declared but not used
+```
+
+Any variable declared at package scope may not be used and no error is raised in such a case.
+
+```
+package main
+
+import "fmt"
+
+var y int = 20 // unused package-scope variable - doesn't raise error
+
+func main(){
+	x := 10
+	z := 12 // unused Local Variable - Raised Error
+	fmt.Println(x)
+}
 ```
 
 ### **Numeric Type Conversion**
@@ -218,7 +252,7 @@ import (
 )
 
 // Declaring variable outside funtion/ on package level
-var varOut string = "This variable was declared outside function."
+var varOut string = "This string variable was declared outside function."
 
 // Declaring multiple variables together using single 'var' block
 var (
@@ -252,7 +286,7 @@ func main() {
 
 OUTPUT:
 
-This variable was declared outside function.
+This string variable was declared outside function.
 World of type string 
 26 of type int 
 78.5 of type float64 
