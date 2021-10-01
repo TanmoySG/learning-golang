@@ -241,6 +241,44 @@ func mulDiv(n int, m int) (int, int){
 }
 ```
 
+### Zero Value - Value of Uninitalized Variables
+
+In Go, any variable that is declared but not initialized with any value is assigned a default ***Zero Value***. 
+
+Zero Values for some data types are:
+
+|           Type            |    Zero Value     |
+| :-----------------------: | :---------------: |
+| numeric types(int, float) |         0         |
+|      boolean (bool)       |       false       |
+|          string           | "" (empty-string) |
+|          pointer          |        nil        |
+
+```
+package main
+
+import "fmt"
+
+func main() {
+
+	var integerVar int
+	var floatVar float64
+	var stringVar string
+	var boolVar bool
+	fmt.Println("Zero Value of int (numeric) is ", integerVar)
+	fmt.Println("Zero Value of float (numeric) is ", floatVar)
+	fmt.Println("Zero Value of string is ", stringVar)
+	fmt.Println("Zero Value of boolean is ", boolVar)
+}
+
+
+OUTPUT:
+
+Zero Value of int (numeric) is  0
+Zero Value of float (numeric) is  0
+Zero Value of string is  
+Zero Value of boolean is  false
+```
 
 ## A Sample Program for variables
 
