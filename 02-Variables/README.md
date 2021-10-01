@@ -280,6 +280,20 @@ Zero Value of string is
 Zero Value of boolean is  false
 ```
 
+### Commenting in Go
+
+Commenting is supported in Go using the <kbd>//</kbd> or for muli-line commenting we use <kbd>/* */</kbd>
+
+```
+// This is a single line comment
+
+var i int
+
+/*
+	this is a multi-line comment
+*/
+```
+
 ## A Sample Program for variables
 
 ```
