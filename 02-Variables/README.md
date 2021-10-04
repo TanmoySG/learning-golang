@@ -1,4 +1,6 @@
-# Variables in GoLang
+# Variables and Constants in GoLang
+
+## Variables
 
 A variable is name given to a storage area that the programs can manipulate.
 
@@ -294,7 +296,7 @@ var i int
 */
 ```
 
-## A Sample Program for variables
+### A Sample Program for variables
 
 ```
 package main
