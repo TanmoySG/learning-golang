@@ -61,11 +61,11 @@ func main() {
 
 	// & is the "address of" operator so, pointerVar stores the address of sourceVar
 	pointerVar := &sourceVar 
-	
+
 	fmt.Printf("This is an %T with value %v\n", pointerVar, pointerVar) // Address of the source variable
 
 	// the * operator is used to display the value at the address stored in the pointer variable
-	fmt.Printf("This is an %T with value %v\n", *pointerVar, *pointerVar) // Value at the address stored in pointerVar
+	fmt.Printf("This is an %T with value %v\n", *pointerVar, *pointerVar) // Value stored at the address stored in pointerVar
 
 
 }
