@@ -10,10 +10,10 @@ In Go, both signed and unsigned integers are available in four different sizes -
 // Unsigned Integer - uint, uint8, uint16, uint32, uint64
 var unsignedInteger uint = 12 
 
+fmt.Printf("This is an %T with value %v\n", unsignedInteger, unsignedInteger)
+
 // Signed Integer - int, int8, int16, int32, int64
 var signedInteger int = 15   
-
-fmt.Printf("This is an %T with value %v\n", unsignedInteger, unsignedInteger)
 
 fmt.Printf("This is an %T with value %v\n", signedInteger, signedInteger)
 ```
