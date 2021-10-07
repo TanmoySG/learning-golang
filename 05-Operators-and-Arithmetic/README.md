@@ -156,7 +156,7 @@ fmt.Printf("%v <= %v is %v\n", p, r, p <= r)  // true
 
 <kbd>||</kbd>  logical or , eg. <kbd>true || true => true, true || false => true</kbd>
 
-<kbd>!</kbd>   logical negation , <kbd>eg. !true => false, !false => true</kbd>
+<kbd>!</kbd>   logical negation , eg. <kbd> !true => false, !false => true</kbd>
 
 ```
 i, j, k := 2, 4, 5
