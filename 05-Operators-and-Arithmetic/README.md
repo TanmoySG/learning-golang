@@ -15,9 +15,13 @@ Arithmetic Operators are used to perform math-operations and calculations
 Go supports the following Arithmetic Operators -
 
 <kbd>+</kbd>  Sum
+
 <kbd>-</kbd>  Difference
+
 <kbd>*</kbd>  Multiplication
+
 <kbd>/</kbd>  Divide
+
 <kbd>%</kbd>  Remainder/Modulus
 
 Go doesn't have any power operator so, math.Pow() is used.
@@ -79,10 +83,15 @@ fmt.Printf("Decremented value of x is %v\n", x) // decrement
 Used to assign value to a variable. 
 
 <kbd>=</kbd>   simple assignement
+
 <kbd>+=</kbd>  increment and assign
+
 <kbd>-=</kbd>  decrement and assign
+
 <kbd>*=</kbd>  multiply and assign
+
 <kbd>/=</kbd>  divide and assign
+
 <kbd>%=</kbd>  modulus and assign
 
 ```
@@ -135,7 +144,9 @@ fmt.Printf("%v <= %v is %v\n", p, r, p <= r)  // true
 ## Logical Operators
 
 <kbd>&&</kbd>  logical and , eg. <kbd>true && true => true, true && false => false</kbd>
+
 <kbd>||</kbd>  logical or , eg. <kbd>true || true => true, true || false => true</kbd>
+
 <kbd>!</kbd>   logical negation , <kbd>eg. !true => false, !false => true</kbd>
 
 ```
