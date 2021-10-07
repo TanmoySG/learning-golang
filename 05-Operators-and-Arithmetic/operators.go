@@ -20,7 +20,7 @@ func main() {
 
 	*/
 
-	// sun
+	// sum
 	fmt.Printf("Addition of %v and %v is %v\n", a, b, a+b)
 
 	// difference
@@ -99,5 +99,82 @@ func main() {
 	y %= 5
 	fmt.Printf("y%%= %v\n", y) // modulus and assign
 
+	/*
+		Comparison Operator
+
+		==  equal operator, checks if values on both side of the op. are equal
+		!=  not equal operator, checks if values on both sides are NOT Equal
+		>   greater than, checks if left operand is greater than the right one
+		<   lesser than, checks if left operand is lesser than the right one
+		>=  greater than or equal to, checks if left operand is greater or equal to than the right one
+		<=  lesser than or equal to, checks if left operand is lesser or equal to than the right one
+
+	*/
+
+	p, q, r := 5, 5, 7
+
+	fmt.Printf("%v == %v is %v\n", p, r, p == r)
+	fmt.Printf("%v != %v is %v\n", p, r, p != r)
+	fmt.Printf("%v > %v is %v\n", p, q, p > q)
+	fmt.Printf("%v < %v is %v\n", p, r, p < r)
+	fmt.Printf("%v >= %v is %v\n", p, q, p >= q)
+	fmt.Printf("%v <= %v is %v\n", p, r, p <= r)
+
+	/*
+		Logical Operators
+
+		&&  logical and , eg. true && true => true, true && false => false
+		||  logical or , eg. true || true => true, true || false => true
+		!   logical negation , eg. !true => false, !false => true
+
+	*/
+
+	i, j, k := 2, 4, 5
+
+	// 2 == 4 is false , 2 < 5 is also true, false and(&&) true is false
+	fmt.Printf("(%v == %v)&&(%v < %v) is %v\n", i, j, i, k, (i == j) && (i < k))
+
+	// 4 >= 4 is true , 5 <= 4 is flase, false or(||) true is true
+	fmt.Printf("(%v >= %v)||(%v <= %v) is %v\n", j, j, k, j, (j >= j) || (k <= j))
+
+	// 2 == 2 is true, not(!) true is false
+	fmt.Printf("!(%v == %v) is %v \n", i, i, !(i == i))
+
+	// 2 > 5 is false, not(!) flase is true
+	fmt.Printf("!(%v > %v) is %v \n", i, k, !(i > k))
 
 }
+
+/*
+
+OUTPUT:
+-------
+Addition of 8 and 5 is 13
+Difference between 6.6 and 4.7 is 1.8999999999999995
+Multiplication of 8 and 5 is 40
+Division of 6.6 and 4.7 is 1.404255319148936
+Remainder when 8 is divided by 5 is 3
+8 is of type int, while 6.6 is of type float64
+Adding 8 and 6.6 by converting 6.6 into int is 14
+Dividing 5 and 6.6 by converting 5 into float is 1.3199999999999998
+Value of x is 5
+Incremented value of x is 6
+Decremented value of x is 5
+Value of y is 15
+y+= 17
+y-= 12
+y/= 2
+y*= 6
+y%= 1
+5 == 7 is false
+5 != 7 is true
+5 > 5 is false
+5 < 7 is true
+5 >= 5 is true
+5 <= 7 is true
+(2 == 4)&&(2 < 5) is false
+(4 >= 4)||(5 <= 4) is true
+!(2 == 2) is false
+!(2 > 5) is true
+
+*/
