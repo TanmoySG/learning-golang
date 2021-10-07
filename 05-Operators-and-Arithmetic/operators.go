@@ -86,18 +86,23 @@ func main() {
 
 	var y int
 
-	y = 15
+	y = 15 // assignment operator
 	fmt.Printf("Value of y is %v\n", y)
-	y += 2
-	fmt.Printf("y+= %v\n", y) // increment and assign
-	y -= 5
-	fmt.Printf("y-= %v\n", y) // decrement and assign
-	y /= 6
-	fmt.Printf("y/= %v\n", y) // divide and assign
-	y *= 3
-	fmt.Printf("y*= %v\n", y) // multiply and assign
-	y %= 5
-	fmt.Printf("y%%= %v\n", y) // modulus and assign
+	
+	y += 2 // increment and assign
+	fmt.Printf("y+= %v\n", y) 
+
+	y -= 5 // decrement and assign
+	fmt.Printf("y-= %v\n", y) 
+
+	y /= 6 // divide and assign
+	fmt.Printf("y/= %v\n", y)
+
+	y *= 3 // multiply and assign
+	fmt.Printf("y*= %v\n", y) 
+
+	y %= 5 // modulus and assign
+	fmt.Printf("y%%= %v\n", y) 
 
 	/*
 		Comparison Operator
