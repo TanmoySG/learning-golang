@@ -55,8 +55,10 @@ The above raises an error as a is int while b is float. Hence, type-conversion i
 ```
 // arithmatic ops between difference datatypes using type-conversion
 fmt.Printf("%v is of type %T, while %v is of type %T\n", a, a, c, c)
+
 fmt.Printf("Adding %v and %v by converting %v into int is %v\n", a, c, c, a+int(c))
 // While converting Types, we see some data is lost, 6.6 becomes 6
+
 fmt.Printf("Dividing %v and %v by converting %v into float is %v\n", b, c, b, c/float64(b))
 // Here data is added while converting, 8 becomes 8.0
 ```
@@ -72,8 +74,10 @@ Increaments or Decrements value by 1.
 ```
 x := 5
 fmt.Printf("Value of x is %v\n", x)
+
 x++
 fmt.Printf("Incremented value of x is %v\n", x) // increment
+
 x--
 fmt.Printf("Decremented value of x is %v\n", x) // decrement
 ```
@@ -134,10 +138,15 @@ fmt.Printf("y%%= %v\n", y) // 1
 p, q, r := 5, 5, 7
 
 fmt.Printf("%v == %v is %v\n", p, r, p == r)  // false
+
 fmt.Printf("%v != %v is %v\n", p, r, p != r)  // true
+
 fmt.Printf("%v > %v is %v\n", p, q, p > q)    // false
+
 fmt.Printf("%v < %v is %v\n", p, r, p < r)    // true
+
 fmt.Printf("%v >= %v is %v\n", p, q, p >= q)  // true
+
 fmt.Printf("%v <= %v is %v\n", p, r, p <= r)  // true
 ```
 
