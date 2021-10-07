@@ -5,6 +5,9 @@ Go is an open source programming language that makes it easy to build simple, re
 # Chapters
 1. [Getting Started](01-Getting-Started/)
 2. [Variables in GoLang](https://github.com/TanmoySG/learning-golang/tree/main/02-Variables)
+3. [Data Types](03-Go-Datatypes/)
+4. [I/O in Golang](04-Input-Output/)
+5. [Operators in Go](05-Operators-and-Arithmetic/)
 
 ## Resources
 
