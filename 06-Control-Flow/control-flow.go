@@ -4,9 +4,8 @@ import "fmt"
 
 func main() {
 
-	a, b, c := 25, 59, true
+	a, b := 25, 59
 
-	_ = c
 	/*
 		If-Else Conditional Statements
 	*/
