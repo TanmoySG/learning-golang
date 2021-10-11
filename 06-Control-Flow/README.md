@@ -61,7 +61,7 @@ OUTPUT:
 Some other awesome language
 ```
 
-## Loops
+## Loops - <kbd>for</kbd>
 
 Golang has only one Looping Statement - <kbd>for</kbd> 
 
@@ -139,3 +139,90 @@ for i, j := 10, 20; j > 0; i, j = i-1, j-5 {
 }
 ```
 
+### range in for-loop
+
+for-loop <kbd>range</kbd> iterates over elements in a variety of data structures. The range returns the key/index and the value at that key/index.
+
+
+#### <kbd>range</kbd> for Arrays
+
+```
+nums := []int{2, 3, 4}
+for index, num := range nums { // iterates over nums
+	fmt.Printf("%v at %v \n", num, index)
+}
+```
+
+#### <kbd>range</kbd> for Strings
+
+```
+str := "Golang"
+for index, char := range str { // iterates over str
+	fmt.Printf("%v at %v \n", char, index) // prints the ASCII equivalent
+}
+```
+
+#### <kbd>range</kbd> for Map
+
+```
+dict := map[string]int{
+	"First":  1,
+	"Second": 2,
+	"Third":  3,
+}
+
+for key, value := range dict { // iterates over dict
+	fmt.Printf("%v at %v \n", value, key)
+}
+
+fmt.Printf("Keys : \n")
+
+for key := range dict { // iterates over dict, returns only indices
+	
+    fmt.Printf("%v ", key)
+}
+
+fmt.Printf("\nValues : \n")
+
+for _, value := range dict {
+	fmt.Printf("%v ", value)
+}
+```
+
+## Continue Statement
+
+Continue skips the remaining code in the loop, and directly goes to the post-statement (increament) and to the begining of the loop.
+	
+```
+fmt.Println("continue Demo -")
+
+// Program to skip the number 3 while printing others
+
+for i := 1; i < 6; i = i + 1 {
+	if i == 3 {
+		fmt.Println("Encountered 3")
+		continue // skips code after this line and goes to the start of the loop
+	}
+	fmt.Printf("%v, %v*2=%v, %v+2=%v\n", i, i, i*2, i, i+2)
+}
+```
+
+## Break Statement
+
+Break terminates its parent loop/funtion, i.e. Like continue, break too skips the code, but unlike continue, it doesn't go to the begining of the loop, but comes out of it.
+
+```
+fmt.Println("break Demo -")
+
+// Program to terminate operations when number 3 is encountered
+
+nums = []int{1, 2, 3, 4, 5, 6, 7}
+
+for _ , i := range nums {
+	if i == 3 {
+		fmt.Println("Encountered 3")
+		break // breaks out of loop
+	}
+	fmt.Printf("%v, %v*2=%v, %v+2=%v\n", i, i, i*2, i, i+2)
+}
+```

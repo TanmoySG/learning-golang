@@ -171,6 +171,7 @@ func main() {
 	for _, value := range dict {
 		fmt.Printf("%v ", value)
 	}
+	
 	fmt.Println()
 
 	/*
